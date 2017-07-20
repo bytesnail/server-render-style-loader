@@ -1,6 +1,6 @@
 {
   "name": "server-render-style-loader",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "style loader for webpack & server rendering",
   "main": "index.js",
   "scripts": {
