@@ -1,4 +1,4 @@
-# server-render-style-loader
+# server-style-loader
 
 ## Usage
 
@@ -14,7 +14,7 @@
 
 **server.js**
 ```
-import { getStyle } from 'server-render-style-loader'
+import { getStyle } from 'server-style-loader'
 
 let css = getStyle(curPath) // curPath标示当前路径, 缓存相应样式字符串
 ```
