@@ -6,7 +6,7 @@ function addStyle(style) {
 
 function getStyle(path) {
   if (!store.hasOwnProperty(path)) {
-    store[path] = cache.join()
+    store[path] = cache.join('')
     cache = []
   }
   return store[path]
